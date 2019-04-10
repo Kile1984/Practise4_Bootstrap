@@ -1,0 +1,688 @@
+@font-face{
+  font-family: montserrat;
+  src: url(fonts/Montserrat-Regular.otf);
+}
+body{
+  font-family: montserrat;
+}
+.p-0{
+  padding: 0;
+}
+/**************
+LOGO and SOCIAL
+***************/
+span.carousel-control-prev-icon{
+  z-index: 999;
+}
+.carousel-indicators{
+  cursor: pointer;
+}
+.logoSocial{
+  position: absolute;
+  top: 50px;
+  text-align: center;
+}
+.logoSocial a{
+  color: #d7b369;
+  font-weight: 900;
+  text-decoration: none;
+  cursor: pointer;
+}
+.logoSocial a:hover{
+  color: #009ee0;
+}
+.logoSocial span{
+  color: #d7b369;
+}
+.logo img{
+  width: 100px;
+}
+.logo h1{
+  color: #fff;
+  font-weight: 900;
+}
+.social{
+  padding: 25px 0;
+}
+.social i{
+  font-size: 35px;
+  padding: 0 5px;
+}
+.social a{
+  color: #fff;
+}
+.myH1 h1{
+  font-size: 70px;
+  color: #fff;
+  display: inline-block;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  text-shadow: 3px 3px 5px #000;
+}
+/**************
+NAV
+***************/
+.goldBgr{
+  background: #009ee0;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light{
+  padding: 0;
+  width: 100%;
+  background: #009ee0;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+div#navbarNavAltMarkup{
+   background: #009ee0;
+}
+.navbar-nav{
+  margin: 0 auto;
+}
+a.nav-item.nav-link{
+  font-weight: 900;
+
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #d7b369;
+}
+/**********************
+SECTION INDEX ABOUT US
+**********************/
+.aboutUsLogo img{
+    width: 100px;
+}
+.indexAboutUsLeft img{
+  width: 100%;
+}
+.indexAboutUs .row{
+  padding: 50px 10px;
+}
+.indexAboutUsRight{
+  padding: 0 200px;
+}
+.indexAboutUsRight span{
+  color: #009ee0;
+}
+.indexAboutUsRight .blueBtn{
+    background: #009ee0;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+ .blueBtn{
+    background: #009ee0;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+.blueBtn:hover{
+  background: #d7b369;
+  color: #009ee0;
+}
+/**********************
+SECTION TOP
+**********************/
+.imgTop{
+  background: url("images/fontana1.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+.imgMiddle{
+  background: url("images/autoRoad2.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+.imgBottom{
+  background: url("images/testovi2.jpg") no-repeat;
+  background-size: cover;
+  background-position: left;
+  padding: 0;
+}
+.boxContent{
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  font-weight: 900;
+  text-align: center;
+  padding: 150px 0;
+}
+.boxContent p{
+  margin: 0;
+}
+.sectionContent a{
+  text-decoration: none;
+  color: #fff;
+}
+.sectionContent:hover  .transparentBlue{
+  background: rgba( 0, 158, 224, 0.3);
+}
+
+/**************
+SECTION BOTTOM
+***************/
+.newsH1{
+  padding: 50px 0;
+}
+.newsH1 h2{
+  color: #009ee0;
+}
+.news a{
+  text-decoration: none;
+  color: #000;
+}
+.news h3{
+  color: #d7b369;
+}
+.news .row{
+  padding: 50px 0;
+}
+.newsLeft, .newsRight{
+  padding:0 25px;
+}
+.newsLeft img, .newsRight img{
+  width: 100%;
+}
+.newsLeft .blueBtn,
+.newsRight .blueBtn{
+  margin-top: 25px;
+}
+.newsContent{
+  padding: 5px;
+}
+.newsList{
+  padding-bottom: 50px;
+}
+.newsList p{
+  margin: 0;
+}
+.notification{
+  color: #fff;
+  background:  #009ee0;
+  padding: 15px 10px;
+  border-radius: 7px 7px 0 0;;
+}
+.notification h5{
+  margin: 0;
+}
+.tests{
+  background: #d7d8d2;
+  border-bottom: 1px solid silver;
+  padding: 20px 10px;
+}
+.tests:hover{
+  background:rgba( 215,179,105, 0.5);
+}
+.tests h6{
+  color: #009ee0;
+}
+/**************
+INDEX CONTACT
+***************/
+.indexContact{
+  background: rgb( 215,179,105);
+  padding: 50px 0;
+}
+.indexContact h5{
+  font-weight: 900;
+}
+.mail input[type="submit"]{
+  height: 40px;
+  background: #009ee0;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.mail input[type="submit"]:hover{
+  background: #d7b369;
+  color: #009ee0;;
+}
+.mail input[type="text"]{
+  height: 40px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    padding-left: 5px;
+}
+.address a{
+  text-decoration: none;
+  color: #000;
+}
+.sicialNetwork i{
+  color: #009ee0;
+}
+/**************
+MAP
+***************/
+#map{
+  width: 100%;
+  height: 400px;
+}
+.googleMap{
+  padding: 0;
+}
+/**************
+FOOTER
+***************/
+footer{
+  color: #d7b369;;
+  text-align: center;
+  padding: 25px;
+  background: #009ee0;
+}
+/********************************************************************aboutUs**********************************************************/
+.aboutUs{
+  background: url("images/slide-img-1.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.aboutUsMiddle{
+  padding: 0;
+}
+.aboutUsMiddle img{
+  width: 100%;
+}
+.aboutUsSocial{
+  padding: 25px 0;
+}
+.aboutUsSocial a{
+  color: #d7b369;
+  font-weight: 900;
+  text-decoration: none;
+  cursor: pointer;
+}
+.aboutUsSocial i{
+  font-size: 35px;
+  padding: 0 5px;
+}
+.aboutUsSocial a:hover{
+  color: #009ee0;
+}
+.aboutUsLang a{
+  color: #d7b369;
+  text-decoration: none;
+}
+.aboutUsLang a:hover{
+  color: #009ee0;
+}
+.aboutUsLang{
+  color: #d7b369;
+}
+.aboutUs .social i{
+  color: #d7b369;
+}
+.aboutUs .social i:hover{
+    color: #009ee0;;
+}
+.aboutUsLRight img{
+  width: 100%;
+  padding: 50px 0;
+}
+.mision{
+  background: #d7b369;
+  color: #009ee0;
+  padding: 50px 15px;
+}
+.vision{
+  background: #009ee0;
+  color: #d7b369;
+  padding: 50px 15px;
+}
+/**************
+ABOUT US CONTENT
+***************/
+.aboutUsContent{
+  padding: 50px 25px;
+}
+.aboutUsContent span{
+  color: #009ee0;
+}
+/**************
+SAFE DRIVE
+***************/
+.safeDrive{
+   background: #d7b369;
+   text-align: center;
+   padding: 50px 0;
+}
+.safeDrive h2{
+  color: #009ee0;
+}
+/********************************************************************cenovnik**********************************************************/
+.price h2{
+  padding: 50px 0;
+}
+.price h5{
+  padding-bottom: 25px;
+}
+table{
+  padding-bottom: 50px;
+}
+table th{
+  background: #009ee0;
+  color: #d7b369;
+}
+.bottomTable .btd{
+  width: 70%;
+}
+.topTable, .bottomTable{
+  padding-bottom: 50px;
+}
+.priceList{
+  background: url("images/cenovnik.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  /*padding: 50px 0;*/
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/******************************************novi testovi****************************************************/
+.testPage{
+  background: url("images/box3.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.transparentBgr{
+ background: rgba(0,0,0,0.5);
+ padding: 50px 0;
+}
+.testList a{
+  color: #000;
+ 
+}
+.testList li{
+   padding: 5px 0;
+}
+hr{
+  background: #d7b369;
+}
+.testContent{
+  padding: 50px 25px;
+}
+/********************************************************************aboutUs***************************************************/
+
+.routePage{
+  background: url("images/box1.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/********************************************************************vozila***************************************************/
+.carLeftImg img,
+.carRightImg img{
+  width: 100%;
+}
+.carLeftImg p,
+.carRightImg p{
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+} 
+.carLeftImg,
+.carRightImg{
+  padding: 0;
+  position: relative;
+}
+.carText{
+  background: rgba(0, 158, 224, 0.5);
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 40%;
+  max-height: 40%;
+}
+.carFluid{
+   padding-bottom: 50px;
+}
+/********************************************************************vesti***************************************************/
+.newsPage{
+  background: url("images/news-img.jpg") no-repeat;
+  background-size: cover;
+  /*background-position: center;*/
+  /*padding: 50px 0;*/
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.newsFluid{
+  padding: 50px 25px;
+}
+.newsSection img{
+  width: 100%;
+}
+.newsSection .blueBtn{
+    margin-top: 0;
+}
+.newsSection .newsContent{
+  min-height: 170px;
+}
+
+/********************************************************************obavestenja**********************************************************/
+.news-1{
+  padding: 50px 25px;
+}
+.news-1 img{
+  width: 100%;
+}
+
+/********************************************************************kontakt**********************************************************/
+.contactPage{
+  background: url("images/contact.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  /*padding: 50px 0;*/
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+/**************
+MEDIA QUERY
+***************/
+@media only screen and (max-width: 1600px){
+  .indexAboutUsRight .blueBtn{
+    margin: 0;
+  }
+  .indexAboutUsRight{
+    padding: 0 150px;
+  }
+}
+@media only screen and (max-width: 1440px){
+  .social{
+      padding: 10px 0;
+  }
+  .myH1 h1{
+    font-size: 50px;
+    top: 60%;
+  }
+  .blueBtn{
+    margin-top: 0;
+  }
+   .indexAboutUsRight{
+    padding: 0 100px;
+  }
+}
+@media only screen and (max-width: 1200px){
+  .myH1 h1{
+    font-size: 40px;
+    top: 65%;
+  }
+    .indexAboutUsRight{
+      padding: 0 50px;
+  }
+}
+@media only screen and (max-width: 1024px){
+    .social{
+      padding: 0;
+    }
+    .indexAboutUsRight{
+      padding: 0 15px;
+    }
+  
+}
+@media only screen and (max-width: 991px){
+  .logoSocial{
+    top: 10px;
+  }
+  .logoSocial .social i{
+    font-size: 20px;
+  }
+  nav.navbar.navbar-expand-lg.navbar-light.bg-light{
+    width: 0;
+  }
+  .navbar-light .navbar-nav .nav-link{
+    width: 200px;
+  }
+  .navbar-light .navbar-toggler{
+    border: none;
+  }
+  .carousel-indicators{
+    display: none;
+  }
+  .newsList{
+    padding: 0 25px;
+  }
+  .newsList {
+    padding: 50px 25px;
+  }
+   .mail input[type="submit"]{
+    margin-top: 10px;
+  }
+  .newsSection .newsContent {
+    min-height: 234px;
+  }
+}
+@media only screen and (max-width: 768px){
+  .myH1 h1{
+    display: none;
+  }
+  .social{
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 767px){
+    .address h5{
+      padding-top: 50px;
+  }
+  .sicialNetwork h5{
+      padding-top: 25px;
+  }
+  .newsLeft .blueBtn, .newsRight .blueBtn{
+    margin-top: 0;
+  }
+   .newsRight{
+    padding-top: 50px;
+  }
+  .margin-0{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+  .testContainer{
+    margin: 0;
+    padding: 0;
+  }
+  .vision, .mision{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .topTable, .bottomTable{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .leftGallery{
+    padding-bottom: 50px;
+   
+    /*padding-top: 50px;*/
+  }
+  .leftGallery, .rightGallery{
+      padding-left: 25px;
+      padding-right: 25px;
+  }
+  .newsSection .newsContent{
+    min-height: 150px;
+  }
+  .newsSection .blueBtn{
+    margin-bottom: 50px;
+  }
+  .padding-0{
+     padding: 0;
+  }
+}
+@media only screen and (max-width: 530px){
+    .carText{
+      position: static;
+      min-height: 0;
+      max-height: 100%;
+    }
+
+
+}
+@media only screen and (max-width: 425px){
+  .logoSocial{
+      top: 15px;
+    }
+  .navbar-light .navbar-nav .nav-link{
+      padding: 5px 10px;
+    }
+    .w-100 {
+      width: 100%;
+      height: 300px;
+    }
+    .sectionTop{
+      padding-left: 35px;
+      padding-right: 35px;
+    }
+    .boxContent{
+      padding: 80px 0;
+    }
+    .indexAboutUsRight h2{
+      padding-top: 50px;
+    }
+    .indexContactBgr h2{
+      padding-bottom: 25px;
+    }
+    .newsH1{
+      padding: 25px 0;
+    }
+    .carFluid{
+      padding-bottom: 0;
+    }
+    .column{
+      width: 100%;
+    }
+    div#myModal{
+      display: none;
+    }
+    .mySlides img{
+      height: 300px;
+}
+
+}
+@media only screen and (max-width: 320px){
+  ul.testList{
+    padding-left: 25px;
+  }
+}
